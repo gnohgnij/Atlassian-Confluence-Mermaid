@@ -39,8 +39,8 @@
         <resource type="download" name="mermaid-plugin.js" location="/js/mermaid-plugin.js" />
         <resource type="download" name="custom-editor.js" location="/js/custom-editor.js" />
 
-        <!-- <context>mermaid-plugin</context> -->
-        <context>editor</context>
+        <context>mermaid-plugin</context>
+        <!-- <context>editor</context> -->
     </web-resource>
 
     <!-- import from the product container -->
