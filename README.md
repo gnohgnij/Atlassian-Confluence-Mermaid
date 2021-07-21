@@ -4,6 +4,8 @@ This plugin is a modification of the [Mermaid Plugin for Confluence](https://mar
 
 The input for the diagram code is within the macro browser dialog instead of the macro body.
 
+[img](https://github.com/gnohgnij/Atlassian-Confluence-Mermaid/blob/master/img/macroBrowser.png)
+
 Click [here](https://bitbucket.org/AlanHohn/mermaid-plugin/src/master/) for the original code by Alan Hohn.
 
 # Mermaid Plugin for Confluence
