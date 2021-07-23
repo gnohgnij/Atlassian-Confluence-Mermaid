@@ -1,4 +1,4 @@
-package org.anvard.atlassian;
+package dso.plugin;
 
 import java.io.InputStream;
 import java.io.InputStreamReader;

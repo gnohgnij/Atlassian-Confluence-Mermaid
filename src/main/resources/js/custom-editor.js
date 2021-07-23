@@ -17,6 +17,7 @@
                 // paramDiv creates the above elements
                 var paramDiv = AJS.$(Confluence.Templates.MacroBrowser.macroParameter());
                 
+                console.log("inside fields override");
 
                 // $(selector, context)
                 // selector - A string containing a selector expression i.e. id of tag
@@ -27,8 +28,9 @@
                 var textArea = document.createElement("textarea");
                 textArea.style.resize = "none";
                 textArea.style.overflow = "scroll";
+                textArea.style.whiteSpace = "nowrap";
                 textArea.setAttribute("rows", "12");
-                textArea.setAttribute("cols", "30");
+                textArea.setAttribute("cols", "28");
                 textArea.setAttribute("id", "macro-param-Code");
                 textArea.setAttribute("class", "macro-param-input");
 
@@ -75,6 +77,7 @@
 
     AJS.toInit(function(){
         AJS.bind("init.rte", function(){
+            console.log("inside init.rte");
             AJS.MacroBrowser.setMacroJsOverride('mermaid-macro', new MermaidMacro());
         })
     })

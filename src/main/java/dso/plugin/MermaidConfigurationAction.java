@@ -1,4 +1,4 @@
-package org.anvard.atlassian;
+package dso.plugin;
 
 import com.atlassian.confluence.core.ConfluenceActionSupport;
 

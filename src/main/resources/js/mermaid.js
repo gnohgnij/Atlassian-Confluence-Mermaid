@@ -1,4 +1,5 @@
 ! function(t, e) {
+    console.log("hello");
    "object" == typeof exports && "object" == typeof module ? module.exports = e() : "function" == typeof define && define.amd ? define([], e) : "object" == typeof exports ? exports.mermaid = e() : t.mermaid = e()
 }("undefined" != typeof self ? self : this, (function() {
    return function(t) {
