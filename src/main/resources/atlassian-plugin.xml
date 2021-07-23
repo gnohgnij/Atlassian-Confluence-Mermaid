@@ -41,6 +41,8 @@
 
         <context>mermaid-plugin</context>
         <!-- <context>editor</context> -->
+        <context>atl.general</context>
+        <context>atl.admin</context>
     </web-resource>
 
     <!-- import from the product container -->
